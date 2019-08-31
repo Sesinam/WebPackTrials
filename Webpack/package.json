@@ -1,0 +1,22 @@
+{
+  "name": "chum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server ./index.js ./dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit1",
+    "build": "webpack --mode production",
+    "server": "webpack-dev-server ./nindex.js ./dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.8.0"
+  },
+  "description": ""
+}
